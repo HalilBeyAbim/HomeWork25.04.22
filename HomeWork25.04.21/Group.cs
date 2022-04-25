@@ -7,8 +7,11 @@ namespace HomeWork25._04._21
     class Group
     {
         public string No;
+
         public byte Limit;
+
         private Student[] _students;
+
         public Group(string number, byte limit)
         {
             No = number;
@@ -21,7 +24,7 @@ namespace HomeWork25._04._21
             {
                 Array.Resize(ref _students, _students.Length + 1);
                 _students[_students.Length - 1] = student;
-                Console.WriteLine("yarandi");
+                Console.WriteLine("Yarandi");
             }
             else
             {
@@ -32,7 +35,7 @@ namespace HomeWork25._04._21
         {
             foreach (var students in _students)
             {
-                Console.WriteLine(students.Name, students.Surname);
+                Console.WriteLine(students.Name + " " + students.Surname);
             }
         }
 

@@ -7,8 +7,8 @@ namespace HomeWork25._04._21
         static void Main(string[] args)
 
         {
-            Group group = new Group("P324",2);    
-
+            Group group = new Group("P324",2);
+            Console.WriteLine("Group No: P324\n");
             Student student1 = new Student("Xelilbey","Xelilbeyli");
             Student student2 = new Student("Memmedbagir", "Bagirzade");
             Student student3 = new Student("Siyavus", "Aslan");
